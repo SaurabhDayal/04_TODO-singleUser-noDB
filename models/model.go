@@ -13,7 +13,7 @@ type Todo struct {
 
 func init() {
 	Todos = []Todo{
-		Todo{
+		{
 			Id:          Counter,
 			UserId:      124,
 			Title:       "Bank checks",
