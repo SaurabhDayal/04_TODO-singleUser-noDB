@@ -2,7 +2,7 @@ package models
 
 var Todos []Todo
 
-var Counter = 1
+var Counter = 2
 
 type Todo struct {
 	Id          int    `json:"id"`
@@ -18,6 +18,12 @@ func init() {
 			UserId:      124,
 			Title:       "Bank checks",
 			Description: "Collect checks house and deposit in all the bank branches",
+		},
+		{
+			Id:          Counter,
+			UserId:      234,
+			Title:       "Motor Cycle Service",
+			Description: "Wash and Dry",
 		},
 	}
 
