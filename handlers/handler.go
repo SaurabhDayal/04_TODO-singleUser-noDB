@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"04_TODO-SingleUser-noDB/DbHelper"
-	"04_TODO-SingleUser-noDB/models"
+	"03_TODO-SingleUser-noDB/DbHelper"
+	"03_TODO-SingleUser-noDB/models"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	"net/http"
