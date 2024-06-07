@@ -17,10 +17,10 @@ COPY . .
 WORKDIR /GO-01/cmd
 
 # Build the Go app
-RUN go build -o /app/main .
+RUN go build -o /GO-01/main .
 
 # Set the working directory back to /app
 WORKDIR /GO-01
 
 # Command to run the executable
-CMD ["./cmd/main"]
+CMD ["./main"]
