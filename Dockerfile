@@ -19,6 +19,9 @@ WORKDIR /GO-01/cmd
 # Build the Go app
 RUN go build -o /GO-01/main .
 
+# Expose port 8080
+EXPOSE 8080
+
 # Set the working directory back to /app
 WORKDIR /GO-01
 
